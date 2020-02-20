@@ -5,7 +5,7 @@ class Plane: GameObject
     // constructor
     init()
     {
-        super.init(imageString: "plane", initialScale: 2.0)
+        super.init(imageString: "plane1", initialScale: 2.0)
         Start()
     }
     
@@ -36,6 +36,8 @@ class Plane: GameObject
     override func Start()
     {
         self.zPosition = 2
+        let rotate = SKAction.rotate(byAngle: -1.5708, duration: 0)
+        self.run(rotate)
     }
     
     override func Update()
