@@ -1,3 +1,6 @@
+//StartScene.swift
+//Name: Loveleen Kaur
+//Student Id: 301093331
 
 import UIKit
 import AVFoundation

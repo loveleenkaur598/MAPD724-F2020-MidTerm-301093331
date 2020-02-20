@@ -1,3 +1,7 @@
+//Island.swift
+//Name: Loveleen Kaur
+//Student Id: 301093331
+
 import SpriteKit
 import GameplayKit
 
